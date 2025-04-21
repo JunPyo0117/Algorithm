@@ -1,5 +1,5 @@
 import sys
-# 아 진짜 모르겠다 재귀 너무 어렵다/ fork 연습하기  qweqfs
+#
 n = int(sys.stdin.readline())
 
 result = [0]
