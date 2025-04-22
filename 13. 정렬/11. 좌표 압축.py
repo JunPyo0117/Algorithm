@@ -19,6 +19,7 @@ for i in range(len(set_x)):
     dic[set_x[i]] = i
 
 # print(dic)
-# fdsfsd
+
 for i in x:
     print(dic[i], end=' ')
+
