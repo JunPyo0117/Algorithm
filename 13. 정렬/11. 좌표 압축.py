@@ -22,4 +22,3 @@ for i in range(len(set_x)):
 
 for i in x:
     print(dic[i], end=' ')
-
