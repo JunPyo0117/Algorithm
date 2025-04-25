@@ -22,33 +22,33 @@
 
 # ========================================================
 # dictionary 사용
-# import sys
+import sys
 
-# # 숫자카드 개수 입력
-# n = int(sys.stdin.readline())
-# # 숫자카드 입력
-# card = set(map(int, sys.stdin.readline().split()))
+# 숫자카드 개수 입력
+n = int(sys.stdin.readline())
+# 숫자카드 입력
+card = set(map(int, sys.stdin.readline().split()))
 
-# # 확인할 숫자카드 개수 입력
-# m = int(sys.stdin.readline())
-# # 확인할 숫자카드 입력
-# check = list(map(int, sys.stdin.readline().split()))
+# 확인할 숫자카드 개수 입력
+m = int(sys.stdin.readline())
+# 확인할 숫자카드 입력
+check = list(map(int, sys.stdin.readline().split()))
 
-# # 딕셔너리 선언
-# dic = {}
-# # check에 있는 딕셔너리 0으로 초기화
-# for c in check:
-#     dic[c] = 0
+# 딕셔너리 선언
+dic = {}
+# check에 있는 딕셔너리 0으로 초기화
+for c in check:
+    dic[c] = 0
 
-# # print(dic)
-# # cheack의 숫자가 card에 있으면 1 변경 
-# for i in card:
-#     if i in dic:
-#         dic[i] = 1
+# print(dic)
+# cheack의 숫자가 card에 있으면 1 변경 
+for i in card:
+    if i in dic:
+        dic[i] = 1
 
-# # dic의 값들 출력
-# for d in dic:
-#     print(dic[d], end=" ")
+# dic의 값들 출력
+for d in dic:
+    print(dic[d], end=" ")
 
 # ==========================================================
 import sys
