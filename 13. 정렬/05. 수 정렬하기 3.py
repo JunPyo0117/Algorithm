@@ -30,7 +30,7 @@
 import sys
 input = sys.stdin.readline
 
-# 계수정렬 활용
+# 계수(도수)정렬 활용
 n = int(input())
 arr = [0] * (10000 + 1)  # 입력값이 10000개까지 주어지니 10000 + 1개의 리스트 선언
 
